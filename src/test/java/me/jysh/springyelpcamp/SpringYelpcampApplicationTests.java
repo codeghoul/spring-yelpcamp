@@ -7,5 +7,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SpringYelpcampApplicationTests {
 
   @Test
+  public void main() {
+    SpringYelpcampApplication.main(new String[] {});
+  }
+
+  @Test
   void contextLoads() {}
 }
